@@ -24,6 +24,6 @@ class Song
     end 
     
     def self.create_by_name(track)
-        self.create.
+        self.new_by_name(song_name)
     end
 end
