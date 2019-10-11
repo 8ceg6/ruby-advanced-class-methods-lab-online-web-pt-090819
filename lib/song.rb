@@ -21,7 +21,7 @@ class Song
        song = self.create
        song.name = song_name
         song
-        #binding.pry
-    
     end 
+    
+    
 end
