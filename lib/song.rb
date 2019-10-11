@@ -34,7 +34,8 @@ class Song
             track = self.find_by_name(song_name)
             if track
                track
-            else self.create_by_name(song_name)
-            
+            else 
+              self.create_by_name(song_name)
+         end   
     end
 end
